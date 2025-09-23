@@ -11,4 +11,9 @@ tasks = [
 
 
 # Your code here
+def my_function(dictionary):
+	return dictionary["done"]!=False
+resultado=list(filter(my_function,tasks))
+print(resultado)
+	
 
