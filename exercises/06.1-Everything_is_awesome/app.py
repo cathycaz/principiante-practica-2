@@ -1,10 +1,13 @@
 my_list = [1, 0, 0, 0, 1, 0, 0, 0, 1, 1]
 
-def my_function(numbers):
+def my_function(lista):
     new_list = []
-    for i in numbers:
+    for i in lista:
         # The magic happens here
-        
+        if i==1:
+            new_list.append(i)
+        elif i==0:
+            new_list.append("Yahoo")
         
     return new_list
     
