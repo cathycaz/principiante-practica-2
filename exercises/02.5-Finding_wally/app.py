@@ -9,3 +9,6 @@ for i in range (len(people)):
      if people[i].lower() == "wally": #esto hace que no importe mayusculas o minusculas
         print(i)
 
+""" Con people.upper() se convierte toda la lista en mayusculas"""
+
+

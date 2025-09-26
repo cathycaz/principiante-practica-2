@@ -8,3 +8,6 @@ def celsius_to_fahrenheit(celsius):
 result = list(map(celsius_to_fahrenheit, celsius_values))
 
 print(result)
+
+"""" EL MAPEO SE UTILIZA PARA APLICAR UNA FUNCIÓN 
+A CADA ELEMENTO DE UNA LISTA Y DEVOLVER UNA NUEVA LISTA CON LOS RESULTADOS. """
